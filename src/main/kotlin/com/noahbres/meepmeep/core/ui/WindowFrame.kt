@@ -8,7 +8,7 @@ import javax.swing.JPanel
 import kotlin.system.exitProcess
 
 class WindowFrame(title: String, windowX: Int, windowY: Int) : JFrame() {
-    var internalWidth = windowX
+    var internalWidth = windowX*1.31
     var internalHeight = windowY
 
     val canvas = MainCanvas(internalWidth, internalHeight)
